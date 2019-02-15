@@ -35,6 +35,8 @@ class App extends Component {
   // Add event handlers
   handleChangeInfo = e => {
     console.log('EVENT');
+    console.log('NICE');
+
    // console.log(e.target);
     const {name, value} = e.target;
     this.setState((prevState) => ({
